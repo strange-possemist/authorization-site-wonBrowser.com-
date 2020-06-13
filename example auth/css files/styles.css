@@ -1,0 +1,153 @@
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  height: 100%;
+  background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+}
+.entry_email{
+  position: fixed;
+  vertical-align: text-top;
+  font-family: 'Сomic Sans MS', sans-serif;
+  position: static;
+  margin-top:323px;
+  width: 260px;
+  height: 40px;
+  border-radius: 7px;
+  border: 1;
+  border-color: white;
+  font-size:16px;
+  margin-left: 43.5%;
+  padding: 10px;
+  padding-left: 10px;
+  outline: 0;
+}
+.entry_password{
+  position: fixed;
+  vertical-align: text-top;
+  font-family: 'Сomic Sans MS', sans-serif;
+  position: static;
+  width: 260px;
+  height: 40px;
+  border-radius: 7px;
+  border: 1;
+  border-color: white;
+  font-size:16px;
+  margin-left: 43.5%;
+  padding: 10px;
+  padding-left: 10px;
+  outline: 0;
+  margin-top:15PX;
+}
+.entry_button{
+  position: fixed;
+  vertical-align: text-top;
+  bottom: 46%;
+  left: 45.5%;
+  width: 180px;
+  height: 30px;
+  border: dashed;
+  border-color: rgb(172, 172, 172);
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
+  font-weight: 300;
+  outline: 0;
+}
+.entry_button:focus{
+  color: #474945;
+}
+.entry_button:active{
+  outline: 3px solid #FADC80;
+}
+
+
+
+.div1{
+  height: 100px;
+  background: linear-gradient(45deg, #b92b27, #1565C0);
+  position: relative;
+}
+.div2{
+  height:5px;
+  background-color:#FADC80;
+}
+
+.entry_login::placeholder{
+  position: fixed;
+  font-size: 16px;
+  right:20px;
+  color: #888783;
+}
+
+
+.icon_auth{
+  margin-left:49%;
+  margin-top: 30px;
+}
+.text_login{
+  margin-left:44%;
+  font-family: 'Bellota', cursive;
+  font-size: 40px;
+  color: white;
+
+}
+.icon_email{
+  position: fixed;
+  bottom: 59.7%;
+  right: 40.4%;
+  size: 50%;  
+}
+.icon_password{
+  position: fixed;
+  bottom: 54.4%;
+  right: 40.8%;
+  width: 37px;
+  height: 37px;
+  
+}
+.icon_site{
+  position: fixed;
+  right: 14%;
+  top:3%;
+}
+.text_site{
+  position: fixed;
+  right: 3.5%;
+  top:4%;
+  font-family: 'Metal Mania', cursive;
+  font-size:25px;
+  color: white;
+}
+.forgot_password{
+  position: fixed;
+  right: 43%;
+  bottom: 52%;
+  font-size: 12px;
+  color:#9E9D9A;
+}
+.not_account{
+  position: fixed;
+  right: 43%;
+  bottom: 50.8%;
+  font-size: 12px;
+  color:#9E9D9A;
+}
+.not_account:active{
+  color: #FADC80;
+}
+.text_checkbox{
+  position: fixed;
+  right: 50.5%;
+  bottom: 50.8%;
+  font-size: 12px;
+  color:#292827;
+}
+.forgot_password:active{
+  color: #FADC80;
+}
+.entry_checkbox{
+  position: fixed;
+  right: 55.5%;
+  bottom: 50.8%;
+  transform:scale(1.5);
+  opacity:0.9;
+  cursor: pointer;
